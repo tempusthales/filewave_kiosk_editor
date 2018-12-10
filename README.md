@@ -3,6 +3,7 @@
 The look and feel of the FileWave desktop Kiosk for macOS or Windows can be customized using [Qt Style Sheets](https://doc.qt.io/qt-5/stylesheet.html). You would have to create a file named fwGUI.qss and deploy it to your clients in the right location. 
 
 For Mac: `/usr/local/sbin/FileWave.app/Contents/Resources/fwGUI.app/Contents/custom`
+
 For Windows: `C:\Program Files\FileWave\custom (might be "Program Files (x86)", depending on the platform)`
 
 The icons are now also customizable by placing your customized icon in the right location with the correct file name. All of this can be achieved by deploying a Filewave fileset with all the modifications and files built into it. 
